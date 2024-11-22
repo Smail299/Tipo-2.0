@@ -1,0 +1,22 @@
+name: FichaTipo
+main: com.yourname.fichatipo.FichaTipo
+version: 1.0
+api-version: 1.16
+commands:
+  tipo:
+    description: FichaTipo main command
+    usage: /<command>
+    permission: tipo.use
+permissions:
+  tipo.use:
+    description: Allows use of the /tipo command
+    default: op
+  tipo.spawn:
+    description: Allows use of the /tipo spawn command
+    default: op
+  tipo.items:
+    description: Allows use of the /tipo items command
+    default: op
+  tipo.reload:
+    description: Allows use of the /tipo reload command
+    default: op
